@@ -23,8 +23,8 @@ const CLOUDFLARE_META_ENDPOINT: &str = "/meta";
 const DEFAULT_OUTPUT_FILE: &str = "sub/ProxyIP-Daily.md";
 const DEFAULT_PROXY_FILE: &str = "edge/assets/p-legacies.csv";
 
-const MAX_CONCURRENT_SCANS: usize = 100;
-const TIMEOUT_SECONDS: u64 = 8;
+const MAX_CONCURRENT_SCANS: usize = 80;
+const TIMEOUT_SECONDS: u64 = 10;
 const TARGET_PROXY_PORT: u16 = 443;
 
 const NORTHERN_TERRITORY_ENV: &str = "NORTHERN_TERRITORY";
